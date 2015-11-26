@@ -4,23 +4,38 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+          "id": "screen_name",
+          "title":"The screen name of the user who should receive the direct message"
+        },
+        {
+          "id": "user_id",
+          "title":"The ID of the user who should receive the direct message"
+        },
+        {
+          "id": "text",
+          "title":"The text of your direct message"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "screen_name",
+            "title":"screen_name"
+        },
+        {
+            "id": "user_id",
+            "title":"user_id"
+        },
+        {
+            "id": "text",
+            "title":"text"
+        },
+        {
+            "id": "created_at",
+            "title":"created_at"
         }
-      */
     ],
-    "title": "Twitter Direct Message" /* Required.A display name for the module */
+    /* Required.A display name for the module */
+    "title": "Twitter Direct Message"
 }
