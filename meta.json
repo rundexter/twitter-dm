@@ -36,6 +36,9 @@
             "title":"created_at"
         }
     ],
+    "providers": [{
+        "name": "twitter"
+    }],
     "icon": "twitter",
     /* Required.A display name for the module */
     "title": "Twitter Direct Message"
